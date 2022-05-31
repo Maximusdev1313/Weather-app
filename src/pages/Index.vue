@@ -7,6 +7,7 @@
          <div class="absolute-top text-subtitle1 text-center">
            <q-input
               v-model="search"
+              label="Search"
               color="blue"
               label-color="blue"
               filled
