@@ -27,6 +27,8 @@
           <q-separator dark inset />
       <q-card-section class="text-h3">
         {{weather.weather[0].main}}
+
+        
       </q-card-section>
            </q-card>
          </div>
