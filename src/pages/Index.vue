@@ -6,7 +6,7 @@
       <div class="back-blur">
          <div class="absolute-top text-subtitle1 text-center">
            <q-input
-              
+              v-model="search"
               label="Search"
               color="blue"
               label-color="blue"
@@ -28,7 +28,7 @@
       <q-card-section class="text-h3">
         {{weather.weather[0].main}}
 
-
+        
       </q-card-section>
            </q-card>
          </div>
